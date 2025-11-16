@@ -3,10 +3,10 @@ package com.example.exx0231;
 public class Product {
 
     private String name;
-    private int price;
+    private double price;
     private String description;
 
-    public Product(String name, int price, String description){
+    public Product(String name, double price, String description){
         this.name= name;
         this.description = description;
         this.price= price;
@@ -16,7 +16,7 @@ public class Product {
         return this.name;
     }
 
-    public int getPrice(){
+    public double getPrice(){
         return this.price;
     }
 
@@ -28,7 +28,7 @@ public class Product {
         this.name = name;
     }
 
-    public void setPrice(int price){
+    public void setPrice(double price){
         this.price = price;
     }
 
